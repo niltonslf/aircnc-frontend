@@ -27,11 +27,11 @@ button {
 }
 
 .container {
+  margin: 80px auto 0;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  flex-flow: column;
+  max-width: 400px;
+  width: 100%;
 }
 
 .content {
@@ -59,6 +59,12 @@ button {
   color: #444;
   font-weight: bold;
   margin-bottom: 8px;
+}
+
+.content form label span {
+  font-weight: normal;
+  color: #999;
+  font-size: 12px;
 }
 
 .content input {
